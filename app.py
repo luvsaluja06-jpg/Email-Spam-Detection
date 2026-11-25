@@ -10,7 +10,7 @@ model = joblib.load("spam_model.pkl")
 
 # Load dataset for visualization
 data = pd.read_csv(
-    "dataset/SMSSpamCollection",
+    "Dataset/SMSSpamCollection",
     sep="\t",
     header=None,
     names=["label", "message"]
